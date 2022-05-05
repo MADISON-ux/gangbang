@@ -1,0 +1,226 @@
+body{
+    font-family: 'consolas', sans-serif;
+    font-size: larger;
+    background-color: #99e2b4; 
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.navbar-collapse{
+    flex-grow: unset;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #2E86C1;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: linear-gradient(10deg, rgba(153,226,180,1) 12%, rgba(66,89,132,1) 100%);
+}
+.navbar .navbar-nav .nav-link:hover{
+        background-position: right center; /* change the direction of the change here */
+        color: whitesmoke;
+        text-decoration: none;
+        margin: 0px;
+            text-align: center;
+            transition: 0.3s;
+            background-size: 200% auto;
+            color: whitesmoke;            
+            box-shadow: 0 0 20px ;
+            border-radius: 10px;
+            display: block;
+}
+
+.navbar .navbar-nav .nav-link:active{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+}
+
+.intro img{
+    width: 100%;
+    border: 5px solid  #425984;
+    overflow: hidden;
+}
+
+.name{
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.position{
+    font-size: 70px;
+    text-align: center;    
+}
+
+.location{
+    font-size: 65px;
+    text-align: center;
+    color: crimson;  
+}
+
+.about{
+    font-size: 25px;
+    text-align: left;
+}
+
+.description {
+    font-size: 25px;
+    text-align: left;
+}
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33%;
+
+}
+@media(max-width:756px) {
+
+    .position{
+        font-size: 35px;
+        text-align: center;    
+    }
+    
+    .location{
+        font-size: 30px;
+        text-align: center;   
+        color: red; 
+    }
+
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+.bottom{
+    color: red;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.bg-xx{
+        background-color:#99e2b4;
+}
+.p-5 {
+    padding: 20px;
+}
+
+/*Portfolio*/
+
+.incenter{
+    text-align: center;
+}
+
+.skills{
+    color: lightgray;
+    background-color: #344e41;
+    text-align: center;
+}
+
+.softskills{
+    color: lightgray;
+    background-color: #3a5a40;
+}
+
+.tskills{
+    text-align: center;
+    color: lightgray;
+    background-color: #588157;
+}
+
+.prohskills{
+    color: lightgray;
+    background-color: #a3b18a;
+    text-align: center;
+}
+
+.prosskills{
+    color: black;
+    background-color: #dad7cd;
+}
+
+.nethskills{
+    color: black;
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+}
+
+.netsskills{
+    color: black;
+    background-color: rgb(179, 179, 179);
+}
+.fullname{
+    text-align: center;
+    color: crimson;
+}
+.freespace{
+    color: #99e2b4;
+}
+
+
+/*contacts page*/
+
+.logo-cont{
+    
+    text-align: center;
+    color: #99e2b4;
+}
+.a {
+    color: black;
+    size: 10ch;
+}
+.telegram img{
+    margin-right: 100px ;
+    color: #99e2b4;
+    width: 100px;
+}
+
+.instagramm img{
+    margin-right: 100px ;
+    color: #99e2b4;
+    width: 100px;
+}
+
+.gmail img{
+
+    margin-right: 0px ;
+    color: #99e2b4;
+    width: 130px;
+}
+.text-contact{
+    padding-top: 100px;
+    text-align: center;
+}
